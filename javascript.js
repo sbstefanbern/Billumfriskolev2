@@ -185,7 +185,31 @@ else if (start === 6) {
   document.querySelector("#december").style.zIndex = "100";
   start = 7;
 }
-
+else if (start === 0) {
+  document.querySelector("#maj").style.zIndex = "0";
+  document.querySelector("#juni").style.zIndex = "100";
+  start = 1;
+}
+else if (start === -1) {
+  document.querySelector("#april").style.zIndex = "0";
+  document.querySelector("#maj").style.zIndex = "100";
+  start = 0;
+}
+else if (start === -2) {
+  document.querySelector("#marts").style.zIndex = "0";
+  document.querySelector("#april").style.zIndex = "100";
+  start = -1;
+}
+else if (start === -3) {
+  document.querySelector("#febuar").style.zIndex = "0";
+  document.querySelector("#marts").style.zIndex = "100";
+  start = -2;
+}
+else if (start === -4) {
+  document.querySelector("#januar").style.zIndex = "0";
+  document.querySelector("#febuar").style.zIndex = "100";
+  start = -3;
+}
 }
 
 
@@ -222,5 +246,29 @@ function lastMonth() {
     document.querySelector("#december").style.zIndex = "0";
     start = 6;
   }
-
+  else if (start === 1) {
+    document.querySelector("#maj").style.zIndex = "100";
+    document.querySelector("#juni").style.zIndex = "0";
+    start = 0;
+  }
+  else if (start === 0) {
+    document.querySelector("#april").style.zIndex = "100";
+    document.querySelector("#maj").style.zIndex = "0";
+    start = -1;
+  }
+  else if (start === -1) {
+    document.querySelector("#marts").style.zIndex = "100";
+    document.querySelector("#april").style.zIndex = "0";
+    start = -2;
+  }
+  else if (start === -2) {
+    document.querySelector("#febuar").style.zIndex = "100";
+    document.querySelector("#marts").style.zIndex = "0";
+    start = -3;
+  }
+  else if (start === -3) {
+    document.querySelector("#januar").style.zIndex = "100";
+    document.querySelector("#febuar").style.zIndex = "0";
+    start = -4;
+  }
 }
