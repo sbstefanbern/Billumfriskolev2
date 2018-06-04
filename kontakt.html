@@ -69,15 +69,15 @@
         <div class="heading-container">
           <h2>KONTAKT OS</h2>
         </div>
-        <div id="contact">
-          <input type="text" placeholder="Indtast dit navn...">
-          <input type="text" placeholder="Indtast din email...">
-          <input type="text" placeholder="Indtast dit telefonnummer...">
-          <input class="message" type="text" placeholder="Indtast din besked...">
+        <form id="contact" action="" method="post">
+          <input type="text" placeholder="Indtast dit navn..." required autofocus>
+          <input type="email" placeholder="Indtast din email..." required>
+          <input type="number" placeholder="Indtast dit telefonnummer..." required>
+          <input class="message" type="text" placeholder="Indtast din besked..." required>
           <div class="submit">
-            <a href=""> SEND BESKED</a>
+            <button class="bluebutton" name="submit" type="submit" href=""> SEND BESKED</button>
           </div>
-        </div>
+        </form>
       </section>
     </main>
     <footer>
