@@ -151,7 +151,76 @@ function bannerRun2() {
   }
 }
 
+var start = 1;
 /** denne funktion kalder næste måned **/
 function nextMonth() {
+
+if (start === 1) {
+  document.querySelector("#juni").style.zIndex = "0";
+  document.querySelector("#juli").style.zIndex = "100";
+  start = 2;
+}
+else if (start === 2) {
+  document.querySelector("#juli").style.zIndex = "0";
+  document.querySelector("#august").style.zIndex = "100";
+  start = 3;
+}
+else if (start === 3) {
+  document.querySelector("#august").style.zIndex = "0";
+  document.querySelector("#september").style.zIndex = "100";
+  start= 4;
+}
+else if (start === 4) {
+  document.querySelector("#september").style.zIndex = "0";
+  document.querySelector("#october").style.zIndex = "100";
+  start = 5;
+}
+else if (start === 5) {
+  document.querySelector("#october").style.zIndex = "0";
+  document.querySelector("#november").style.zIndex = "100";
+  start = 6;
+}
+else if (start === 6) {
+  document.querySelector("#november").style.zIndex = "0";
+  document.querySelector("#december").style.zIndex = "100";
+  start = 7;
+}
+
+}
+
+
+
+function lastMonth() {
+
+  if (start === 2) {
+    document.querySelector("#juni").style.zIndex = "100";
+    document.querySelector("#juli").style.zIndex = "0";
+    start = 1;
+  }
+  else if (start === 3) {
+    document.querySelector("#juli").style.zIndex = "100";
+    document.querySelector("#august").style.zIndex = "0";
+    start = 2;
+  }
+  else if (start === 4) {
+    document.querySelector("#august").style.zIndex = "100";
+    document.querySelector("#september").style.zIndex = "0";
+    start= 3;
+  }
+  else if (start === 5) {
+    document.querySelector("#september").style.zIndex = "100";
+    document.querySelector("#october").style.zIndex = "0";
+    start = 4;
+  }
+  else if (start === 6) {
+    document.querySelector("#october").style.zIndex = "100";
+    document.querySelector("#november").style.zIndex = "0";
+    start = 5;
+  }
+  else if (start === 7) {
+    document.querySelector("#november").style.zIndex = "100";
+    document.querySelector("#december").style.zIndex = "0";
+    start = 6;
+  }
 
 }

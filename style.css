@@ -464,7 +464,12 @@ main{
 }
 
 #calender{
-  margin-top: 60px;
+  margin-top: 160px;
+  height: 600px;
+}
+
+#juni{
+  z-index: 100;
 }
 
 #signup{
@@ -527,7 +532,8 @@ main{
 
 .calendercontainer{
   width: 70%;
-  margin: 40px auto 150px auto;
+  margin-left: 280px;
+  position: absolute;
 }
 
 .calendertop{
