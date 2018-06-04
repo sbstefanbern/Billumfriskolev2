@@ -360,11 +360,6 @@ main{
   font-family: 'Atma-SemiBold', sans-serif;
 }
 
-
-
-
-
-
 .textcontainer{
   width: 60%;
   margin: 0 auto;
@@ -544,7 +539,12 @@ main{
 }
 
 #calender{
-  margin-top: 60px;
+  margin-top: 160px;
+  height: 600px;
+}
+
+#juni{
+  z-index: 100;
 }
 
 #gallery{
@@ -611,13 +611,15 @@ main{
 
 .calendercontainer{
   width: 70%;
-  margin: 40px auto 150px auto;
+  margin-left: 280px;
+  position: absolute;
 }
 
 .calendertop{
   padding: 8px 0 8px 14px;
   color: #F7F6F0;
   background: #5890B4;
+  text-align: center;
 }
 
 .calenderbody{
@@ -823,7 +825,8 @@ main{
   position: relative;
   width: 30px;
   height: auto;
-  padding-right: 20px;
+  margin-right: 5px;
+  cursor: pointer;
 }
 
 .rightarrow{
@@ -834,6 +837,7 @@ main{
   height: auto;
   margin-top: -27px;
   padding-right: 10px;
+  cursor: pointer;
 }
 
 body {
