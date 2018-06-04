@@ -616,7 +616,7 @@ main{
 
 .calendercontainer{
   width: 70%;
-  margin-left: 280px;
+  margin: 0 15%;
   position: absolute;
 }
 
