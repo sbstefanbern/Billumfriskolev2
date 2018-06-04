@@ -4,6 +4,86 @@
   font-family: 'Atma-Medium', sans-serif;
 }
 
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 22.5%;
+    max-width: 22.5%;
+    padding: 0 8px;
+}
+
+.column img {
+  width: 100%;
+  margin-top: 14px;
+  vertical-align: middle;
+}
+
+@media (max-width: 1200px) {
+    .column {
+        flex: 30%;
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 900px) {
+    .column {
+        flex: 46%;
+        max-width: 46%;
+    }
+}
+
+@media (max-width: 680px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.gallerycontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  width: 80%;
+}
+
+
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 800;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	width: auto;
+	height: auto;
+  max-height: 96%;
+	margin-top: 20px;
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+}
+
+
+
+
+
+
 nav{
   height: 60px;
   background-color: #F7F6F0;
@@ -445,7 +525,7 @@ main{
 }
 
 .values1{
-  margin-top: -43%;
+  margin-top: -49%;
   flex: 45%;
   padding-right: 5%;
 }
@@ -458,7 +538,7 @@ main{
 }
 
 .values2{
-  margin-top: -43%;
+  margin-top: -49%;
   padding-left: 5%;
   flex: 45%;
 }
@@ -470,6 +550,10 @@ main{
 
 #juni{
   z-index: 100;
+}
+
+#gallery{
+  margin: 60px 0;
 }
 
 #signup{
