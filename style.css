@@ -733,6 +733,25 @@ main{
   box-shadow: 5px 6px 6px #E3E3E3;
 }
 
+.leftarrow{
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  width: 30px;
+  height: auto;
+  padding-right: 20px;
+}
+
+.rightarrow{
+  position: relative;
+  float: right;
+  margin: 0 auto;
+  width: 30px;
+  height: auto;
+  margin-top: -27px;
+  padding-right: 10px;
+}
+
 body {
   background-color: #F7F6F0;
 }

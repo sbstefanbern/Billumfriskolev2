@@ -150,3 +150,8 @@ function bannerRun2() {
     bannerCurrent = 1;
   }
 }
+
+/** denne funktion kalder næste måned **/
+function nextMonth() {
+
+}
