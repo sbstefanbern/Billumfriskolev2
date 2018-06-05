@@ -103,7 +103,7 @@ nav ul li{
   padding-top: 18px;
 }
 
-@media(max-width: 1120px){
+@media(max-width: 1200px){
   nav{
   height: 45px;
   }
@@ -137,6 +137,25 @@ nav ul li{
     .banner .banimg-tekst p{
     font-size: 28px !important;
   }
+    .bluebutton-front{
+    font-size: 16px !important;
+    padding: 16px 30px !important;
+    width: 50px !important;
+  }
+    #frontcircle{
+    width: 380px !important;
+    height: 380px !important;
+    margin-left: 38% !important;
+  }
+    #frontcircle-border{
+    width: 360px !important;
+    height: 360px !important;
+    margin-top: -294px !important;
+  }
+  #frontcircle h3{
+  font-size: 18px !important;
+  margin-top: 100px !important;
+}
 }
 
 nav ul li a{
@@ -634,6 +653,20 @@ main{
 
 #buttonmove{
   margin-top: 220px;
+}
+
+.bluebutton-front{
+  background: #5890B4;
+  padding: 16px 60px;
+  margin-top: 50px;
+  font-size: 20px;
+  color: #F7F6F0;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.bluebutton-front:hover{
+  background-color: #7BB0D1;
 }
 
 .bluebutton{
