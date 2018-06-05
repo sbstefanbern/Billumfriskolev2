@@ -152,11 +152,34 @@ nav ul li{
     height: 360px !important;
     margin-top: -294px !important;
   }
-  #frontcircle h3{
-  font-size: 18px !important;
-  margin-top: 100px !important;
+    #frontcircle h3{
+    font-size: 18px !important;
+    margin-top: 100px !important;
+  }
+    #wavybg-front p{
+    font-size: 18px !important;
+    line-height: 28px !important;
+  }
+    #wavybg-front h3{
+    font-size: 28px !important;
+  }
 }
+
+@media(max-width: 1400px){
+  .values1{
+  margin-top: -36% !important;
+  }
+  .values2{
+  margin-top: -36% !important;
+  }
+  .right-border{
+  margin-top: -30% !important;
+  }
+  #wavybg-container{
+  width: 96% !important;
+  }
 }
+
 
 nav ul li a{
   color: #B48269;
